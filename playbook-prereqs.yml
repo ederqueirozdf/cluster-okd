@@ -1,0 +1,12 @@
+---
+#Playbook do arquivo resolv.conf
+- name: Playbook prereq-OKD
+  hosts: "okd-homolog"
+  tasks:
+    - name: Realizando copia shellscript - prereqs
+      copy:
+        src: prereqs-okd.sh
+        dest: /tmp/prereqs-okd.sh
+        mode: 0777
+    - name: Executando script shell - prereqs
+      command: bash /tmp/prereqs-okd.sh >> /tmp/reqokd.log
