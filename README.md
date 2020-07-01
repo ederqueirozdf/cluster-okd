@@ -307,6 +307,8 @@ O Openshift-ansible oferece um script de pré-requisitos para validação das co
 
 Ao final da execução do comando acima, será possível identificar o status da sua "instalação", será possível ver algo como a imagem abaixo:
 
+![Preview Status](https://github.com/ederqueirozdf/cluster-okd/blob/master/preview-status.png)
+
 
 ##### 2.4 DEPLOY CLUSTER - OKD:
 
@@ -319,6 +321,8 @@ Para realizar o deploy, execute o playbook:
 
 Se tudo der certo, você terá resumo do status parecido com:
 
+![Deploy Status](https://github.com/ederqueirozdf/cluster-okd/blob/master/deploy-status.png)
+
 
 Agora, você poderá acessar o ambiente através da URL declarada no inventario:
 
@@ -328,3 +332,5 @@ Agora, você poderá acessar o ambiente através da URL declarada no inventario:
 **Dica:** Neste cenário teremos apenas o usuário admin com qualquer senha, para ter visão de todos os projetos pelo usuário admin, acesse um node master e execute o comando:
 
     oc adm policy add-cluster-role-to-user admin admin
+
+![Tela OKD](https://github.com/ederqueirozdf/cluster-okd/blob/master/login-okd.png)
