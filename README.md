@@ -53,6 +53,7 @@ Também fornecemos um playbook que irá efetuar a copia e a instalação do scri
 
 
 [Download Shellscript](https://raw.githubusercontent.com/ederqueirozdf/cluster-okd/master/prereqs-script.sh) - Script com pacotes e configurações de pré-requisitos
+
 [Download Playbook Ansible](https://raw.githubusercontent.com/ederqueirozdf/cluster-okd/master/playbook-prereqs.yml) - Para executação do script via ansible
 
 Partindo do principio de que você já tenha um host ansible configurado, faça o download do script e do playbook acima e execute o seguinte comando:
