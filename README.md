@@ -1,3 +1,12 @@
+<h1 align="center"> OKD 3.11 - Instalação </h1>
+
+## Author
+👤 **Eder Queiroz**
+* Github: [@ederqueirozdf](https://github.com/ederqueirozdf)
+
+## 🤝 Contribuições são bem vindas
+Linux ❤️
+<hr>
 
 # 1. OPENSHIFT (release 3.11)
 
