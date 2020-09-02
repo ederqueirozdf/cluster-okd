@@ -1,11 +1,11 @@
-<h1 align="center"> OKD 3.11 - Instalação </h1>
+<h1 align="center"> Cluster Openshift - OKD 3.11 🐧 </h1>
 
-## Author
-👤 **Eder Queiroz**
-* Github: [@ederqueirozdf](https://github.com/ederqueirozdf)
+- Repositório com conteúdo para instalação de um cluster kubernetes com openshift - OKD 3.11
 
-## 🤝 Contribuições são bem vindas
-Linux ❤️
+#### 👤 Por: **Eder Queiroz**
+ - 🐱 Github: [@ederqueirozdf](https://github.com/ederqueirozdf)
+ - 🤙 Telegram: [@ederqueirozdf](https://t.me/ederqueirozdf)
+ - Linux ❤️
 <hr>
 
 # 1. OPENSHIFT (release 3.11)
